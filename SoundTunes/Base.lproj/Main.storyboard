@@ -33,6 +33,9 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="N6B-up-nfu" secondAttribute="height" multiplier="343:53" id="UYf-c0-Mrp"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="soundButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3o5-K8-0op"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRa-ki-ihj">
                                 <rect key="frame" x="31" y="195" width="312" height="53"/>

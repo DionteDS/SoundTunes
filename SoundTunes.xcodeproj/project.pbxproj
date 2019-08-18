@@ -12,6 +12,13 @@
 		42A6E4A52308EA2B00B15D2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A6E4A32308EA2B00B15D2E /* Main.storyboard */; };
 		42A6E4A72308EA2C00B15D2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A6E4A62308EA2C00B15D2E /* Assets.xcassets */; };
 		42A6E4AA2308EA2C00B15D2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A6E4A82308EA2C00B15D2E /* LaunchScreen.storyboard */; };
+		42A6E4B92308EE4E00B15D2E /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42A6E4B22308EE4D00B15D2E /* note7.wav */; };
+		42A6E4BA2308EE4E00B15D2E /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42A6E4B32308EE4D00B15D2E /* note3.wav */; };
+		42A6E4BB2308EE4E00B15D2E /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42A6E4B42308EE4E00B15D2E /* note1.wav */; };
+		42A6E4BC2308EE4E00B15D2E /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42A6E4B52308EE4E00B15D2E /* note4.wav */; };
+		42A6E4BD2308EE4E00B15D2E /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42A6E4B62308EE4E00B15D2E /* note2.wav */; };
+		42A6E4BE2308EE4E00B15D2E /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42A6E4B72308EE4E00B15D2E /* note5.wav */; };
+		42A6E4BF2308EE4E00B15D2E /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42A6E4B82308EE4E00B15D2E /* note6.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		42A6E4A62308EA2C00B15D2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42A6E4A92308EA2C00B15D2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42A6E4AB2308EA2C00B15D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A6E4B22308EE4D00B15D2E /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		42A6E4B32308EE4D00B15D2E /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		42A6E4B42308EE4E00B15D2E /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		42A6E4B52308EE4E00B15D2E /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		42A6E4B62308EE4E00B15D2E /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		42A6E4B72308EE4E00B15D2E /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		42A6E4B82308EE4E00B15D2E /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +74,23 @@
 				42A6E4A62308EA2C00B15D2E /* Assets.xcassets */,
 				42A6E4A82308EA2C00B15D2E /* LaunchScreen.storyboard */,
 				42A6E4AB2308EA2C00B15D2E /* Info.plist */,
+				42A6E4B12308EE1300B15D2E /* Sounds */,
 			);
 			path = SoundTunes;
+			sourceTree = "<group>";
+		};
+		42A6E4B12308EE1300B15D2E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				42A6E4B42308EE4E00B15D2E /* note1.wav */,
+				42A6E4B62308EE4E00B15D2E /* note2.wav */,
+				42A6E4B32308EE4D00B15D2E /* note3.wav */,
+				42A6E4B52308EE4E00B15D2E /* note4.wav */,
+				42A6E4B72308EE4E00B15D2E /* note5.wav */,
+				42A6E4B82308EE4E00B15D2E /* note6.wav */,
+				42A6E4B22308EE4D00B15D2E /* note7.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +151,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A6E4BE2308EE4E00B15D2E /* note5.wav in Resources */,
+				42A6E4BB2308EE4E00B15D2E /* note1.wav in Resources */,
 				42A6E4AA2308EA2C00B15D2E /* LaunchScreen.storyboard in Resources */,
+				42A6E4BF2308EE4E00B15D2E /* note6.wav in Resources */,
+				42A6E4BC2308EE4E00B15D2E /* note4.wav in Resources */,
 				42A6E4A72308EA2C00B15D2E /* Assets.xcassets in Resources */,
+				42A6E4B92308EE4E00B15D2E /* note7.wav in Resources */,
+				42A6E4BD2308EE4E00B15D2E /* note2.wav in Resources */,
 				42A6E4A52308EA2B00B15D2E /* Main.storyboard in Resources */,
+				42A6E4BA2308EE4E00B15D2E /* note3.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
